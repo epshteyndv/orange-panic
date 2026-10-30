@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 500" width="100%" role="img" aria-label="Дом Урсага, первый этаж">
+  <rect width="780" height="500" fill="#1c2430"/>
+  <text x="390" y="32" text-anchor="middle" fill="#f3ead4" font-size="18" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Дом · первый этаж</text>
+  <text x="390" y="52" text-anchor="middle" fill="#dcc9a0" font-size="12" font-weight="500" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">север — зад дома, к теплице</text>
+  <g transform="translate(720,36)">
+  <polygon points="0,-18 6.5,9 -6.5,9" fill="#f3ead4"/>
+  <rect x="-1.6" y="8" width="3.2" height="8" fill="#f3ead4"/>
+  <text x="0" y="32" text-anchor="middle" fill="#f3ead4" font-size="12" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">СЕВЕР</text>
+</g>
+
+  <!-- outer walls -->
+  <rect x="90" y="80" width="600" height="300" rx="3" fill="#3d3428" stroke="#c4a06a" stroke-width="4"/>
+
+  <!-- cabinet -->
+  <rect x="104" y="94" width="278" height="168" fill="#e8d4a8" stroke="#3d2e1a" stroke-width="2"/>
+  <rect x="124" y="130" width="90" height="70" rx="3" fill="#c4a06a" stroke="#3d2e1a"/>
+  <text x="243" y="168" text-anchor="middle" fill="#1a140c" font-size="16" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Кабинет</text>
+  <text x="243" y="190" text-anchor="middle" fill="#5a4630" font-size="12" font-weight="500" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">записи Урсага</text>
+  <g><circle cx="126" cy="114" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="126" y="114" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">2</text></g>
+
+  <!-- pantry -->
+  <rect x="398" y="94" width="278" height="168" fill="#e8d4a8" stroke="#3d2e1a" stroke-width="2"/>
+  <rect x="420" y="124" width="24" height="44" rx="2" fill="#8b6b3e" stroke="#3d2e1a"/>
+  <rect x="450" y="124" width="24" height="44" rx="2" fill="#8b6b3e" stroke="#3d2e1a"/>
+  <rect x="480" y="124" width="24" height="44" rx="2" fill="#8b6b3e" stroke="#3d2e1a"/>
+  <circle cx="620" cy="150" r="14" fill="#d4893a" stroke="#3d2e1a"/>
+  <text x="537" y="200" text-anchor="middle" fill="#1a140c" font-size="16" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Кладовая</text>
+  <text x="537" y="222" text-anchor="middle" fill="#5a4630" font-size="12" font-weight="500" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">семечки · тыковка</text>
+  <g><circle cx="420" cy="114" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="420" y="114" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">3</text></g>
+
+  <!-- hall -->
+  <rect x="104" y="276" width="572" height="90" fill="#d4c09a" stroke="#3d2e1a" stroke-width="2"/>
+  <text x="300" y="328" text-anchor="middle" fill="#1a140c" font-size="14" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">холл</text>
+  <!-- stairs down -->
+  <rect x="430" y="290" width="70" height="62" fill="#8b6b3e" stroke="#3d2e1a"/>
+  <path d="M437 300 H493 M437 312 H493 M437 324 H493 M437 336 H493 M437 348 H493" stroke="#e8d4a8" stroke-width="2"/>
+  <text x="548" y="328" text-anchor="start" fill="#1a140c" font-size="13" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">в подвал</text>
+  <g><circle cx="444" cy="304" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="444" y="304" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">4</text></g>
+
+  <!-- porch -->
+  <rect x="280" y="392" width="220" height="58" rx="2" fill="#c4a06a" stroke="#3d2e1a" stroke-width="2"/>
+  <text x="390" y="426" text-anchor="middle" fill="#1a140c" font-size="14" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">крыльцо · юг, во двор</text>
+  <g><circle cx="300" cy="412" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="300" y="412" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">1</text></g>
+  <ellipse cx="390" cy="466" rx="32" ry="12" fill="#0d1016"/>
+  <text x="430" y="488" text-anchor="start" fill="#f3ead4" font-size="12" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">нора</text>
+</svg>

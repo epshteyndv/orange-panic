@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 760" width="100%" role="img" aria-label="Теплица Урсага, зоны DH">
+  <defs>
+    <pattern id="tpsoil" width="22" height="22" patternUnits="userSpaceOnUse">
+      <rect width="22" height="22" fill="#2c382c"/>
+      <circle cx="6" cy="8" r="1.2" fill="#3d4f42"/>
+      <circle cx="16" cy="15" r="1.1" fill="#3d4f42"/>
+    </pattern>
+  </defs>
+  <rect width="780" height="760" fill="#1c2430"/>
+  <text x="390" y="32" text-anchor="middle" fill="#f3ead4" font-size="18" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Теплица · джек</text>
+  <text x="390" y="52" text-anchor="middle" fill="#dcc9a0" font-size="12" font-weight="500" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">зоны DH от джека · сетки нет</text>
+  <g transform="translate(720,36)">
+    <polygon points="0,-18 6.5,9 -6.5,9" fill="#f3ead4"/>
+    <rect x="-1.6" y="8" width="3.2" height="8" fill="#f3ead4"/>
+    <text x="0" y="32" text-anchor="middle" fill="#f3ead4" font-size="12" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">СЕВЕР</text>
+  </g>
+
+  <!-- yard around glass -->
+  <rect x="24" y="68" width="732" height="560" rx="8" fill="url(#tpsoil)"/>
+
+  <!-- greenhouse frame + glass floor -->
+  <rect x="90" y="96" width="600" height="420" rx="4" fill="#2f4a42" stroke="#8fbc8f" stroke-width="7"/>
+  <!-- glass sash: architecture, not a 3x3 tactical grid -->
+  <path d="M165 96 V516 M240 96 V516 M315 96 V516 M465 96 V516 M540 96 V516 M615 96 V516" stroke="#8fbc8f" stroke-width="1.1" opacity="0.45"/>
+  <path d="M90 168 H690 M90 438 H690" stroke="#8fbc8f" stroke-width="1.1" opacity="0.45"/>
+  <!-- ridge -->
+  <path d="M390 96 V516" stroke="#f0d080" stroke-width="1.6" stroke-dasharray="5 7" opacity="0.55"/>
+  <text x="404" y="118" text-anchor="start" fill="#f0d080" font-size="11" font-weight="500" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">конёк</text>
+
+  <!-- Close = whole house to the glass -->
+  <rect x="100" y="106" width="580" height="400" rx="2" fill="none" stroke="#9bb394" stroke-width="1.8" stroke-dasharray="8 6" opacity="0.7"/>
+  <text x="118" y="128" text-anchor="start" fill="#9bb394" font-size="12" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Close</text>
+
+  <!-- Very Close ring around Jack (pour / whip) -->
+  <ellipse cx="390" cy="292" rx="168" ry="132" fill="#f0d080" fill-opacity="0.07" stroke="#f0d080" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="390" y="168" text-anchor="middle" fill="#f0d080" font-size="12" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Very Close · пасть / плеть</text>
+
+  <!-- Melee on the root body -->
+  <ellipse cx="390" cy="304" rx="92" ry="78" fill="#d4893a" fill-opacity="0.10" stroke="#d4893a" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="390" y="392" text-anchor="middle" fill="#d4893a" font-size="11" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Melee · корни</text>
+
+  <!-- beds west -->
+  <rect x="118" y="186" width="78" height="118" rx="3" fill="#5c4a32" stroke="#3d2e1a" stroke-width="1.6"/>
+  <rect x="128" y="198" width="22" height="14" rx="2" fill="#6a7a4a"/>
+  <rect x="158" y="214" width="22" height="14" rx="2" fill="#6a7a4a"/>
+  <rect x="136" y="246" width="24" height="14" rx="2" fill="#6a7a4a"/>
+  <rect x="118" y="368" width="78" height="100" rx="3" fill="#5c4a32" stroke="#3d2e1a" stroke-width="1.6"/>
+  <rect x="130" y="384" width="22" height="14" rx="2" fill="#6a7a4a"/>
+  <rect x="158" y="412" width="22" height="14" rx="2" fill="#6a7a4a"/>
+  <!-- beds east -->
+  <rect x="584" y="186" width="78" height="118" rx="3" fill="#5c4a32" stroke="#3d2e1a" stroke-width="1.6"/>
+  <rect x="596" y="198" width="22" height="14" rx="2" fill="#6a7a4a"/>
+  <rect x="622" y="226" width="22" height="14" rx="2" fill="#6a7a4a"/>
+  <rect x="584" y="368" width="78" height="100" rx="3" fill="#5c4a32" stroke="#3d2e1a" stroke-width="1.6"/>
+  <rect x="598" y="384" width="22" height="14" rx="2" fill="#6a7a4a"/>
+  <rect x="624" y="416" width="22" height="14" rx="2" fill="#6a7a4a"/>
+  <text x="157" y="354" text-anchor="middle" fill="#dcc9a0" font-size="12" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">грядки</text>
+  <text x="623" y="354" text-anchor="middle" fill="#dcc9a0" font-size="12" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">грядки</text>
+  <g><circle cx="132" cy="200" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="132" y="200" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">3</text></g>
+
+  <!-- Jack: pumpkin head, root body, whip — top-down -->
+  <!-- legs -->
+  <ellipse cx="352" cy="348" rx="28" ry="18" fill="#4a3a28" stroke="#3d2e1a" stroke-width="1.4"/>
+  <ellipse cx="428" cy="350" rx="30" ry="18" fill="#4a3a28" stroke="#3d2e1a" stroke-width="1.4"/>
+  <path d="M340 348 C320 370 328 392 348 404" stroke="#5c4a32" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M442 350 C460 372 454 396 436 408" stroke="#5c4a32" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- torso of roots -->
+  <ellipse cx="390" cy="318" rx="78" ry="52" fill="#5c4a32" stroke="#3d2e1a" stroke-width="2"/>
+  <path d="M340 310 C360 292 380 328 400 300 C418 328 440 294 452 318" stroke="#3d2e1a" stroke-width="1.4" fill="none"/>
+  <path d="M355 334 C378 348 402 336 424 346" stroke="#4a3a28" stroke-width="2.2" fill="none"/>
+  <!-- arms -->
+  <path d="M318 308 C280 300 258 278 248 252" stroke="#5c4a32" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M462 300 C510 292 548 270 572 248" stroke="#5c4a32" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- whip east, Very Close -->
+  <path d="M462 292 C520 260 560 300 548 348 C536 392 500 408 468 390" stroke="#6e8b6e" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M468 390 C452 378 458 362 470 358" stroke="#6e8b6e" stroke-width="3.2" fill="none"/>
+  <text x="560" y="336" text-anchor="middle" fill="#9bb394" font-size="11" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">плеть</text>
+  <!-- pumpkin head -->
+  <circle cx="390" cy="248" r="48" fill="#d4893a" stroke="#3d2e1a" stroke-width="2"/>
+  <path d="M390 200 Q404 214 390 226 Q376 214 390 200" fill="#3d6b38" stroke="#3d2e1a" stroke-width="1.2"/>
+  <path d="M358 248 Q390 268 422 248" fill="none" stroke="#1a140c" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="390" cy="256" rx="22" ry="10" fill="#1a140c"/>
+  <text x="390" y="244" text-anchor="middle" fill="#1a140c" font-size="11" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">пасть</text>
+  <!-- steam cracks -->
+  <path d="M368 228 Q364 214 370 204" stroke="#f0d080" stroke-width="1.6" fill="none" opacity="0.85"/>
+  <path d="M414 230 Q420 216 412 206" stroke="#f0d080" stroke-width="1.6" fill="none" opacity="0.85"/>
+  <text x="390" y="318" text-anchor="middle" fill="#f3ead4" font-size="12" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">джек</text>
+  <g><circle cx="348" cy="236" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="348" y="236" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">4</text></g>
+  <g><circle cx="422" cy="258" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="422" y="258" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">5</text></g>
+
+  <!-- small pumpkins at the glass, inside -->
+  <circle cx="168" cy="128" r="10" fill="#d4893a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <path d="M168 118 C164 110 172 110 168 118" stroke="#3d6b38" stroke-width="2" fill="none"/>
+  <circle cx="250" cy="122" r="9" fill="#c47a3a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <circle cx="530" cy="124" r="10" fill="#d4893a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <path d="M530 114 C526 106 534 106 530 114" stroke="#3d6b38" stroke-width="2" fill="none"/>
+  <circle cx="612" cy="132" r="9" fill="#c47a3a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <circle cx="126" cy="250" r="9" fill="#d4893a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <circle cx="654" cy="268" r="10" fill="#d4893a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <circle cx="160" cy="488" r="9" fill="#c47a3a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <circle cx="620" cy="484" r="9" fill="#d4893a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <!-- small pumpkins outside the glass -->
+  <circle cx="220" cy="80" r="9" fill="#d4893a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <circle cx="390" cy="78" r="10" fill="#c47a3a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <path d="M390 68 C386 60 394 60 390 68" stroke="#3d6b38" stroke-width="2" fill="none"/>
+  <circle cx="560" cy="82" r="9" fill="#d4893a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <circle cx="716" cy="220" r="10" fill="#d4893a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <circle cx="64" cy="300" r="9" fill="#c47a3a" stroke="#3d2e1a" stroke-width="1.2"/>
+  <text x="300" y="86" text-anchor="middle" fill="#f3ead4" font-size="11" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">мелкие снаружи</text>
+  <g><circle cx="188" cy="122" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="188" y="122" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">6</text></g>
+
+  <!-- cracked glass north + NE -->
+  <path d="M200 96 L214 128 L206 160 L228 186" stroke="#f3ead4" stroke-width="1.8" fill="none" opacity="0.8"/>
+  <path d="M214 128 L236 120 L248 142" stroke="#f3ead4" stroke-width="1.4" fill="none" opacity="0.7"/>
+  <path d="M620 96 L640 140 L628 188 L652 210" stroke="#f3ead4" stroke-width="1.8" fill="none" opacity="0.8"/>
+  <path d="M640 140 L668 132" stroke="#f3ead4" stroke-width="1.4" fill="none" opacity="0.7"/>
+  <text x="668" y="108" text-anchor="start" fill="#f3ead4" font-size="11" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">стекло</text>
+  <g><circle cx="640" cy="118" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="640" y="118" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">2</text></g>
+
+  <!-- south door toward the house -->
+  <rect x="350" y="508" width="80" height="18" fill="#6e5a45" stroke="#3d2e1a" stroke-width="1.6"/>
+  <rect x="430" y="516" width="22" height="70" rx="2" fill="#8b6b3e" stroke="#3d2e1a" stroke-width="1.6" transform="rotate(28 430 516)"/>
+  <text x="390" y="552" text-anchor="middle" fill="#f3ead4" font-size="13" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">дверь → дом</text>
+  <text x="390" y="570" text-anchor="middle" fill="#dcc9a0" font-size="11" font-weight="500" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">вход в Close</text>
+  <g><circle cx="338" cy="520" r="12" fill="#d4893a" stroke="#f3ead4" stroke-width="1.6"/><text x="338" y="520" text-anchor="middle" dominant-baseline="central" fill="#1a140c" font-size="13" font-weight="700" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">1</text></g>
+  <path d="M390 586 L390 628" stroke="#f0d080" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="404" y="620" text-anchor="start" fill="#f0d080" font-size="12" font-weight="500" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">к дому, не впритык</text>
+
+  <!-- zone key -->
+  <rect x="120" y="648" width="540" height="88" rx="6" fill="#243028" stroke="#5c4a32" stroke-width="1.6"/>
+  <text x="390" y="672" text-anchor="middle" fill="#f3ead4" font-size="13" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">зоны от джека, не клетки</text>
+  <text x="390" y="694" text-anchor="middle" fill="#d4893a" font-size="12" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Melee — корни, тёплый пресс</text>
+  <text x="390" y="712" text-anchor="middle" fill="#f0d080" font-size="12" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Very Close — заливка в пасть, плеть</text>
+  <text x="390" y="730" text-anchor="middle" fill="#9bb394" font-size="12" font-weight="600" font-family="system-ui, 'Noto Sans', 'DejaVu Sans', sans-serif">Close — грядки, дверь, стекло, мелкие</text>
+</svg>
